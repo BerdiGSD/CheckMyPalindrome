@@ -1,0 +1,16 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --tica-green: #22A1A1;
+    --tica-red: #E63D00;
+    --tica-white: #FCFFF7;
+    --tica-yello: #FFEA00;
+}
+
+
