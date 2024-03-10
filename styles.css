@@ -11,6 +11,18 @@
     --tica-red: #E63D00;
     --tica-white: #FCFFF7;
     --tica-yellow: #FFEA00;
+    --dark-grey: #0a0a23;
 }
 
+html{
+
+}
+
+body {
+
+}
+
+.logo {
+    width: 250px;
+}
 
