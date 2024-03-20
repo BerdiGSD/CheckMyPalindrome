@@ -3,7 +3,7 @@
     --tica-red: #E63D00;
     --tica-white: #FCFFF7;
     --tica-yellow: #FFEA00;
-    --dark-grey: #0a0a23;
+    --dark-grey: #37373b;
   }
   
   * {
@@ -76,20 +76,9 @@
   
   label {
     color: var(--dark-grey);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
-  .text-input {
-    height: 30px;
-    width: 250px;
-    text-align: center;
-    font-size: 1.2rem;
-    /* margin: 10px; */
-    border: none;
-    border-bottom: 2px solid var(--dark-grey);
-    background-color: var(--tica-white);
-  }
-  
   .check-btn {
     width: 90px;
     border: none;
@@ -98,6 +87,31 @@
     background-color: var(--tica-green);
     color: #fff;
     cursor: pointer;
+  }
+
+  .text-input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid var(--dark-grey);
+    background-color: var(--tica-white);
+  }
+
+  .text-input:focus {
+  border-bottom: 3px solid var(--dark-grey);
+}
+
+  .text-input::placeholder {
+    text-align: center;
+  }
+  
+  .user-input {
+    font-size: 1.4rem;
+    margin-top: 18px;
+    text-align: center;
   }
 
   .results-div {
@@ -124,13 +138,8 @@
     justify-content: center;
   }
   
-  .definition p {
+  .definition {
     color: var(--tica-white);
     vertical-align: middle;
     text-align: center;
   }
-  
-  .user-input-block, .definition {
-    height: 100px;
-  }
-  
